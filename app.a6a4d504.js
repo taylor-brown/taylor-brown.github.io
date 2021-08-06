@@ -3266,7 +3266,7 @@ const search = instantsearch({
 */
 var search = instantsearch({
   indexName: 'datasets',
-  searchClient: (0, _instantMeilisearch.instantMeiliSearch)('http://35.232.184.215', '0c03cdf5572a83db2a9d90bb9003ca6fcc47d9ab06c3330b41709bb4138a981b', {
+  searchClient: (0, _instantMeilisearch.instantMeiliSearch)('https://datasetsearch.duckdns.org/', '0c03cdf5572a83db2a9d90bb9003ca6fcc47d9ab06c3330b41709bb4138a981b', {
     paginationTotalHits: 200 // default: 200.
 
   })
